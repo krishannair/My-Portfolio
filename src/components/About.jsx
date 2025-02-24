@@ -1,4 +1,11 @@
+import "../css/About.css";
+import { useState, useEffect } from 'react';
+
 function About() {
+    const [whichAbout, setWhichAbout] = useState(["Skills"]);
+    useEffect(() => {
+        setWhichAbout("Skills");
+    }, []);
     return(
         <section id="about">
             <div className="container">
@@ -7,7 +14,7 @@ function About() {
                         <img src="images/user.png"/>
                     </div>
                     <div className="about-col-2">
-                        <h2>About Me</h2>
+                        <h2 className="subtitle">About Me</h2>
                         <p>
                             Dedicated and versatile professional with a fervor for coding and a proactive approach to continuous learning. Demonstrated
                             commitment to embracing new challenges and adding value to forward-thinking organizations that prioritize innovation and
@@ -16,31 +23,43 @@ function About() {
                             demanding roles.
                         </p>
                         <div className="tab-titles">
-                            <p className="tab-links active-link">Skills</p>
-                            <p className="tab-links">Experience</p>
-                            <p className="tab-links">Education</p>
+                            <p className={`tab-links ${whichAbout === "Skills"? "active-link": ""}`} onClick={() => {
+                                setWhichAbout("Skills");
+                            }}>Skills</p>
+                            <p className={`tab-links ${whichAbout === "Experience"? "active-link": ""}`} onClick={() => {
+                                setWhichAbout("Experience");
+                            }}>Experience</p>
+                            <p className={`tab-links ${whichAbout === "Education"? "active-link": ""}`} onClick={() => {
+                                setWhichAbout("Education");
+                            }}>Education</p>
                         </div>
-                        <div className="tab-contents active-link" id="skills">
+                        {
+                            whichAbout === "Skills"?
+                            
+                        <div className="tab-contents" id="skills">
                             <ul>
-                                <li><span>indun<br/>udufis</span></li>
+                                <li><span>indun<br/></span>udufis</li>
                                 <li><span>indun<br/>udufis</span></li>
                                 <li><span>indun<br/>udufis</span></li>
                             </ul>
                         </div>
+                            : whichAbout ==="Experience"?
                         <div className="tab-contents" id="experience">
                             <ul>
                                 <li><span>indun<br/>udufis</span></li>
-                                <li><span>indun<br/>udufis</span></li>
+                                <li><span>indun<br/></span>udufis</li>
                                 <li><span>indun<br/>udufis</span></li>
                             </ul>
                         </div>
+                        :
                         <div className="tab-contents" id="education">
                             <ul>
                                 <li><span>indun<br/>udufis</span></li>
                                 <li><span>indun<br/>udufis</span></li>
-                                <li><span>indun<br/>udufis</span></li>
+                                <li><span>indun<br/></span>udufis</li>
                             </ul>
                         </div>
+                        }
                     </div>
                 </div>
             </div>
