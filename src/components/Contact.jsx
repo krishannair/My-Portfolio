@@ -1,3 +1,5 @@
+import "../css/Contact.css";
+
 function Contact() {
     return(
         <section id="contact">
@@ -8,24 +10,27 @@ function Contact() {
                         <p>
                             <a href="mailto:krishanvnair2001@gmail.com">krishanvnair2001@gmail.com</a>
                         </p>
-                        <p>Phone Number: +91-9869980391</p>
+                        <p>+91-9869980391</p>
                         <div className="social-icons">
                             <a href=""></a>
                             <a href=""></a>
                             <a href=""></a>
                         </div>
-                        <a href="images/Krishan.pdf" download>Download CV</a>
+                        <a className="btn btn2" href="images/Krishan.pdf" download>Download CV</a>
                     </div>
                     <div className="contact-right">
                         <form>
                             <input type="text" name="Name" placeholder="Your Name" required/>
                             <input type="email" name="Email" placeholder="Your Email" required/>
-                            <input name="Message" rows="6" placeholder="Your Message"/>
-                            <button type="submit">Submit</button>
+                            <textarea name="Message" rows="6" placeholder="Your Message"/>
+                            <button className="btn btn2" type="submit">Submit</button>
 
                         </form>
                     </div>
                 </div>
+            </div>
+            <div className="copyright">
+                <p>Copyright ©️ Krishan Vinod Nair.</p>
             </div>
         </section>
     );

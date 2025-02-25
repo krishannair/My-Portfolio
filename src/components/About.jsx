@@ -11,7 +11,7 @@ function About() {
             <div className="container">
                 <div className="row">
                     <div className="about-col-1">
-                        <img src="images/user.png"/>
+                        <img src="https://placehold.co/300x400"/>
                     </div>
                     <div className="about-col-2">
                         <h2 className="subtitle">About Me</h2>

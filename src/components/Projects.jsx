@@ -1,3 +1,5 @@
+import "../css/Projects.css";
+
 function Projects() {
     return(
         <section id="projects">
@@ -5,7 +7,7 @@ function Projects() {
                 <h1 className="subtitle">My Projects</h1>
                 <div className="project-list">
                     <div class="project">
-                        <img src="images/project-1.png"/>
+                        <img src="https://placehold.co/300x400"/>
                         <div className="layer">
                             <h3>Control of a Mobile Robot using Reinforcement Learning</h3>
                             <ul>
@@ -16,7 +18,7 @@ function Projects() {
                         </div>
                     </div>
                     <div class="project">
-                        <img src="images/project-2.png"/>
+                        <img src="https://placehold.co/300x400"/>
                         <div className="layer">
                             <h3>Secure Password Manager with AES-256 Encryption and SQLite Database</h3>
                             <ul>
@@ -28,7 +30,7 @@ function Projects() {
                         </div>
                     </div>
                     <div class="project">
-                        <img src="images/project-3.png"/>
+                        <img src="https://placehold.co/300x400"/>
                         <div className="layer">
                             <h3>Smart Taxi Using OpenAI Gym</h3>
                             <ul>
