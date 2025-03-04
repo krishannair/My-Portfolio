@@ -1,6 +1,6 @@
 import "../css/Experiences.css";
 
-// TODO: Restructure experience
+
 function Experiences() {
     return(
         <section id="experiences">
