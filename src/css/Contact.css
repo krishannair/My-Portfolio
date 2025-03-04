@@ -18,7 +18,7 @@
     color: #ffffff;
 }
 .contact-left p i{
-    color:#ff004f;
+    color:#105DCD;
     margin-right: 15px;
     font-size:25px;
 }
@@ -34,14 +34,14 @@
     transition: transform 0.5s;
 }
 .social-icons a:hover{
-    color: #ff004f;
+    color: #105DCD;
     transform: translateY(-5px);
 }
 .btn{
     display: block;
     margin:50px auto;
     width: fit-content;
-    border: 1px solid #ff004f;
+    border: 1px solid #105DCD;
     padding:14px 50px;
     border-radius: 6px;
     text-decoration: none;
@@ -49,11 +49,11 @@
     transition: background 0.5s;
 }
 .btn:hover{
-    background: #ff004f;
+    background: #105DCD;
 }
 .btn.btn2{
     display: inline-block;
-    background-color: #ff004f;
+    background-color: #105DCD;
 }
 .subtitle{
     font-size:60px;

@@ -1,9 +1,11 @@
 header{
     width:100%;
     height: 100vh;
-    /* background-image: url(images/background.png); */
-    background-size: cover;
-    background-position:center;
+    background-image: url(../../public/images/background.png);
+    background-size: 40% 100%;
+    background-repeat: no-repeat;
+    background-position: right;
+    background-attachment: fixed
 }
 
 .container{
@@ -18,7 +20,7 @@ nav{
 }
 
 .logo{
-    width:140px;
+    width:150px;
 }
 
 nav ul li{
@@ -37,7 +39,7 @@ nav ul li a::after{
     content: '';
     width:0;
     height:3px;
-    background: #ff004f;
+    background: #105DCD;
     position: absolute;
     left: 0;
     bottom:-5px;
@@ -59,5 +61,5 @@ nav ul li a:hover::after{
 }
 
 .header-text h1 span{
-    color:#ff004f;
+    color:#105DCD;
 }

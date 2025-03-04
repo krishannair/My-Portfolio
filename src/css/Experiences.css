@@ -13,14 +13,23 @@
     grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); /* 1fr=fraction */
     gap: 40px;
     margin-top:50px;
+    justify-content: center;   /* Centers the image horizontally */
+    align-items: center;   
 }
 .experience{
     border-radius: 10px;
     position: relative;
+    height: 353px;
     overflow: hidden;
+    justify-content: center;   /* Centers the image horizontally */
+    align-items: center;   
 }
 .experience img{
-    width: 100%;
+    padding: auto;
+    padding-left: 14px;
+    height: 100%;
+    width: 90%;
+    object-fit: contain;
     border-radius: 10px;
     display: block;
     transition: height 0.5s;
@@ -29,7 +38,7 @@
 .layer{
     width: 100%;
     height: 0;
-    background: linear-gradient(rgba(0,0,0,0.6), #ff004f);
+    background: linear-gradient(rgba(0,0,0,0.6), #105DCD);
     border-radius: 10px;
     position: absolute;
     left: 0;
@@ -52,7 +61,7 @@
     font-weight: 550;
 }
 .layer a{
-    color: #ff004f;
+    color: #105DCD;
     text-decoration: none;
     background-color: #ffffff;
     font-size: 18px;

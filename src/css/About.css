@@ -1,6 +1,7 @@
 #about{
     padding:80px 0;
-    color: #ababab;
+    color: #AEAFB1;
+    position: relative;
 }
 .container{
     padding:10px 10%;
@@ -40,7 +41,7 @@
 }
 .tab-links::after{
     content:"";
-    background:#ff004f;
+    background:#105DCD;
     width:0;
     height:3px;
     left:0;
@@ -56,6 +57,6 @@
     margin:10px 0;
 }
 .tab-contents ul li span{
-    color: #b54769;
+    color: #05668D;
     font-size: 14px;
 }

@@ -8,26 +8,26 @@ function Experiences() {
                 <h1 className="subtitle">My Experience</h1>
                 <div className="experience-list">
                     <div className="experience">
-                        <img src="https://placehold.co/300x400" alt="" />
+                        <img src="../images/Turing.avif" alt="Turing logo" />
                         <div className="layer">
                             <h3>Turing</h3>
                             <h4>Delivery Data Scientist</h4>
                             <ul>
                                 <li>
-                                    Execute advanced Supervised Fine-Tuning (SFT) processes to enhance the performance and accuracy of language models by 15-20%.
+                                    Boosted language model accuracy 15-20% via advanced SFT.
                                 </li>
                                 <li>
-                                    Initiated the implementation of new evaluation frameworks for AI model performance, which streamlined testing phases and reduced development time by 20%, allowing for quicker deployment of updates and features.
+                                    Streamlined AI testing, cutting development time 20% with new evaluation frameworks.
                                 </li>
                                 <li>
-                                    Deliver comprehensive, data-driven reports to clients, highlighting key insights and actionable recommendations to optimize model performance.
+                                    Delivered data-driven reports, providing actionable insights for model optimization.
                                 </li>
                             </ul>
-                            <a href=""></a>
+                            <a href="https://www.turing.com/" aria-label="Go to Turing Website"></a>
                         </div>
                     </div>
                     <div className="experience">
-                        <img src="https://placehold.co/300x400" alt="" />
+                        <img src="../images/HPE.png" alt="Hewlett Packard Enterprises(HPE) logo"/>
                         <div className="layer">
                             <h3>Hewlett Packard Enterprise (HPE)</h3>
                             <h4>SDE Intern</h4>      
@@ -42,11 +42,11 @@ function Experiences() {
                                     Detects anomalies for Anomaly detection achieving 97% accuracy in multivariate time series.
                                 </li>
                             </ul>
-                            <a href=""></a>
+                            <a href="https://github.com/krishannair/AnomalyDetection-MultivariateTimeSeries" aria-label="Go to internship project code"></a>
                         </div>
                     </div>
                     <div className="experience">
-                        <img src="https://placehold.co/300x400" alt="" />
+                        <img src="../images/Marine-Electricals.webp" alt="Marine-Electricals logo" />
                         <div className="layer">
                             <h3>Marine Electricals (India) Ltd</h3>
                             <h4>R&D Intern</h4>     
@@ -64,7 +64,7 @@ function Experiences() {
                                     Using UART communication protocol for transmitting data, facilitating the integration of 10 distinct peripherals.
                                 </li>
                             </ul>
-                            <a href=""></a>
+                            <a href="https://drive.google.com/drive/folders/1awl62qygVNmT3F6ve1bdNlIaHBwgi-XP" aria-label="Go to internship work drive link"></a>
                         </div>
                     </div>
                 </div>
