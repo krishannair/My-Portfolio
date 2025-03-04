@@ -28,14 +28,14 @@ function Contact() {
             <div className="container">
                 <div className="row">
                     <div className="contact-left">
-                        <h1 className="subtitle">Contact Me</h1>
+                        <h1 className="contact-subtitle">Contact Me</h1>
                         <p>
                             <a href="mailto:krishanvnair2001@gmail.com">krishanvnair2001@gmail.com</a>
                         </p>
                         <p>+91-9869980391</p>
                         <div className="social-icons">
-                            <a href="https://www.linkedin.com/in/krishan-nair/" aria-label="Go to LinkedIn">LinkedIn</a>
-                            <a href="https://github.com/krishannair" aria-label="Go to Github">Github</a>
+                            <a href="https://www.linkedin.com/in/krishan-nair/"><img src="../images/linkedin-icon.svg" alt="Go to LinkedIn"/></a>
+                            <a href="https://github.com/krishannair"><img src="../images/github-icon.svg" alt="Go to Github"/></a>
                         </div>
                         <a className="btn btn2" href="images/Krishan.pdf" download>Download CV</a>
                     </div>

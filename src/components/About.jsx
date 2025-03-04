@@ -14,7 +14,7 @@ function About() {
                         <img src="../images/my-pic.png" alt="Profile"/>
                     </div>
                     <div className="about-col-2">
-                        <h2 className="subtitle">About Me</h2>
+                        <h2 className="about-subtitle">About Me</h2>
                         <p>
                             Dedicated and versatile professional with a fervor for coding and a proactive approach to continuous learning. Demonstrated
                             commitment to embracing new challenges and adding value to forward-thinking organizations that prioritize innovation and
