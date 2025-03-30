@@ -37,7 +37,7 @@ function Contact() {
                             <a href="https://www.linkedin.com/in/krishan-nair/"><img src={`${process.env.PUBLIC_URL}/images/linkedin-icon.svg`} alt="Go to LinkedIn"/></a>
                             <a href="https://github.com/krishannair"><img src={`${process.env.PUBLIC_URL}/images/github-icon.svg`} alt="Go to Github"/></a>
                         </div>
-                        <a className="btn btn2" href="images/Krishan.pdf" download>Download CV</a>
+                        <a className="btn btn2" href={`${process.env.PUBLIC_URL}/images/Krishan.pdf`} download>Download CV</a>
                     </div>
                     <div className="contact-right">
                         <form name="submit-to-google-sheet" onSubmit={handleSubmit}>
