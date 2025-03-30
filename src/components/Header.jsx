@@ -21,7 +21,7 @@ function Header() {
             <section id="home">
                 <div className="container">
                     <nav>
-                        <img src="../images/logo_blue.png" alt="My Logo" className="logo"/>
+                        <img src={`${process.env.PUBLIC_URL}/images/logo_blue.png`} alt="My Logo" className="logo"/>
                         <ul ref={ulRef}>
                             <li><a href="#home">Home</a></li>
                             <li><a href="#about">About</a></li>
@@ -29,11 +29,11 @@ function Header() {
                             <li><a href="#projects">Projects</a></li>
                             <li><a href="#contact">Contact</a></li>
                             <div className="menu">
-                                <img src="../images/close-icon.svg" onClick={() => {setOpenMenu("false");}} alt="Close"/>
+                                <img src={`${process.env.PUBLIC_URL}/images/close-icon.svg`} onClick={() => {setOpenMenu("false");}} alt="Close"/>
                             </div>
                         </ul>
                         <div className="menu">
-                            <img src="../images/menu-icon.svg" onClick={() => {setOpenMenu("true");}} alt="Menu"/>
+                            <img src={`${process.env.PUBLIC_URL}/images/menu-icon.svg`} onClick={() => {setOpenMenu("true");}} alt="Menu"/>
                         </div>
                     </nav>
                     <div className="header-text">

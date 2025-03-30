@@ -11,7 +11,7 @@ function About() {
             <div className="container">
                 <div className="row">
                     <div className="about-col-1">
-                        <img src="../images/my-pic.png" alt="Profile"/>
+                        <img src={`${process.env.PUBLIC_URL}/images/my-pic.png`} alt="Profile"/>
                     </div>
                     <div className="about-col-2">
                         <h2 className="about-subtitle">About Me</h2>
