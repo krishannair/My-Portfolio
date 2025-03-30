@@ -1,11 +1,11 @@
 header{
     width:100%;
     height: 100vh;
-    background-image: url(../../public/images/background.png);
-    background-size: 40% 100%;
+    background-image: url(../../public/images/background-trial2.png);
+    background-size: 50% 95%;
     background-repeat: no-repeat;
     background-position: right;
-    background-attachment: fixed
+    background-attachment: fixed;
 }
 
 .container{
@@ -23,9 +23,13 @@ nav{
     width:150px;
 }
 
+nav ul {
+    padding-left: 450px;
+}
+
 nav ul li{
     display:inline-block;
-    margin:10px 20px;
+    margin:10px 30px;
 }
 
 nav ul li a{
@@ -64,18 +68,51 @@ nav ul li a:hover::after{
     color:#105DCD;
 }
 
+.menu img{
+    width: 25px ;
+    display: none;
+}
+
+
 @media only screen and (max-width: 600px){
     header{
-        background-size: 60% 100%;
+        background-size: 0% 0%;
+        height: 80vh;
     }
     .header-text{
-        margin-top: 100%;
+        margin-top: 70%;
         font-size: 16px;
     }
     .header-text h1{
         font-size: 30px;
     }
+    nav ul{
+        background-color: #105DCD;
+        position: fixed;
+        top: 0;
+        right: -200px;
+        width: 200px;
+        height: 100vh;
+        padding-top: 50px;
+        padding-left: 0px;
+        z-index : 2;
+        transition: right 0.5s;
+    }
+    nav ul li{
+        display: block;
+        margin: 25px;
+    }
+    nav ul .menu{
+        display: block;
+        position: absolute;
+        top: 25px;
+        left: 25px;
+        cursor: pointer;
+    }
     nav ul li a{
         font-size:17px;
+    }
+    .menu img{
+        display: block;
     }
 }

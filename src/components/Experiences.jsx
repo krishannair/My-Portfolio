@@ -46,7 +46,7 @@ function Experiences() {
                         </div>
                     </div>
                     <div className="experience">
-                        <img className="experience-cover-image" src="../images/Marine-Electricals.webp" alt="Marine-Electricals logo" />
+                        <img className="experience-cover-image" src="../images/Marine-Electricals2.png" alt="Marine-Electricals logo" />
                         <div className="layer">
                             <h3>Marine Electricals (India) Ltd</h3>
                             <h4>R&D Intern</h4>     
